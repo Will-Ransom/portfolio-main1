@@ -7,7 +7,6 @@ body {
 .hero {
     background-color: antiquewhite;
     height: 100vh;
-    display: flex;
     font-size: 35px;
 }
 
@@ -26,6 +25,19 @@ nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
+}
+
+.introduction {
+    display: flex;
+}
+
+.introduction-text {
+     width: 30%;
+     margin-left: 100px;
+}
+
+.me-picture {
+    width: 30%;
 }
 
 /*Other*/
