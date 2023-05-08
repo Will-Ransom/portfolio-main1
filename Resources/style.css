@@ -16,23 +16,20 @@ h2 {
 a {
     text-decoration: none;
 }
-/* unvisited link */
+
 a:link {
     color: black;
   }
   
-  /* visited link */
-  a:visited {
+a:visited {
     color: black;
   }
   
-  /* mouse over link */
-  a:hover {
+a:hover {
     color: white;
   }
   
-  /* selected link */
-  a:active {
+a:active {
     color: white;
   }
 
@@ -49,7 +46,7 @@ a:link {
     height: 60vh;
 }
 
-ul {
+.navlinks {
     display: flex;
     list-style-type: none;
     width: 450px;
@@ -125,4 +122,16 @@ footer {
 
 footer p {
     margin: 50px;
+}
+
+/*Contact*/
+.contact-details {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-content {
+    background-color: #BBBFCA;
+    font-size: 35px;
+    height: 100vh;
 }
