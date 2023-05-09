@@ -67,7 +67,7 @@ nav {
 
 /*keeping things even*/
 .inner-content {
-    width: 50%;
+    width: 900px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -89,8 +89,17 @@ nav {
 
 /*PROJECTS*/
 
+.inner-content2 {
+    width: 900px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
 .screenshot {
-    height: 350px;
+    width: 100%;
     margin-top: 100px;
     margin-bottom: 100px;
 }
@@ -98,14 +107,13 @@ nav {
 .projects {
     background-color: #F4F4F2;
     height: auto;
+    display: flex;
 }
 
 .projects h2 {
     width: 100%;
-}
-
-.project-text {
-    width: 500px;
+    text-align: center;
+    font-size: 30px;
 }
 
 /*FOOTER*/
