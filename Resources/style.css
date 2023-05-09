@@ -78,12 +78,12 @@ nav {
 /*INTRO*/
 
 .introduction-text {
-    width: 500px;
+    width: 50%;
 }
 
 .me-picture {
-    width: 350px;
-    height: 350px;
+    width: 40%;
+    height: 40%;
     border-radius: 50%;
 }
 
@@ -96,12 +96,14 @@ nav {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .screenshot {
     width: 100%;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .projects {
@@ -142,4 +144,26 @@ footer p {
     background-color: #BBBFCA;
     font-size: 35px;
     height: 100vh;
+}
+
+@media only screen and (max-width: 960px){
+    .introduction-text {
+        width: 100%;
+    }
+    
+    .me-picture {
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+    }
+
+    .inner-content {
+        width: auto;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero {
+        height: auto;
+    }
 }
