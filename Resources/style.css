@@ -1,10 +1,15 @@
-/*Universal*/
+/*Boilerplate*/
+*{
+    box-sizing: border-box;
+}
 
 body {
     margin: 0;
+    padding: 0;
     font-family: "Roboto", Arial, sans-serif;
 }
 
+/*Universal*/
 h1 {
     font-family: "Roboto slab";
 }
@@ -34,6 +39,23 @@ a:active {
   }
 
 /*Hero and navbar*/
+
+.hamburger-menu {
+    position: absolute;
+    display: flex;
+    top: 3rem;
+    bottom: 3rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60px;
+    height: 60px;
+}
+
+.bar {
+    height: 10px;
+    width: 100%;
+    background-color: black;
+}
 
 .name {
     width: 100px;
