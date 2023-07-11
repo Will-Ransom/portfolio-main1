@@ -171,6 +171,20 @@ footer p {
     height: 100vh;
 }
 
+/*Marketing Graphics*/
+.marketing-graphic-content {
+    background-color: #BBBFCA;
+    font-size: 35px;
+}
+
+.mg-images {
+    width: 80%;
+}
+
+.marketing-graphic-content img {
+    width: 100%;
+}
+
 @media only screen and (max-width: 700px){
     .hamburger-menu {
         display: flex;
