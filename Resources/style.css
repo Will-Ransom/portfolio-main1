@@ -175,6 +175,7 @@ footer p {
 .marketing-graphic-content {
     background-color: #BBBFCA;
     font-size: 35px;
+    height: 40vh;
 }
 
 .mg-section {
@@ -186,6 +187,10 @@ footer p {
     width: 80%;
     margin: auto;
     text-align: center;
+}
+
+.mg-images h3 {
+    margin: 0;
 }
 
 .mg-images img {
