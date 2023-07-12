@@ -1,0 +1,82 @@
+body {
+    font-family: "mulish", helvetica, sans-serif;
+    margin: 0;
+}
+
+.navbarfull {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+    font-family: "mulish";
+}
+
+li {
+    display: inline;
+    margin-left: 50px;
+    vertical-align: middle;
+}
+
+.navbarlogo {
+    width: 80PX;
+}
+
+.hero {
+    background-image: url("../Images/presentation.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.hero h1 {
+    padding-top: 15%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 100px;
+    font-family: "mulish";
+    margin-top: 10px;
+}
+
+.hero p {
+    text-align: center;
+    padding-bottom: 15%;
+    color: aliceblue;
+    font-size: 40px;
+    font-family: "mulish";
+    font-weight: bold;
+}
+
+.companydescription {
+    margin: auto;
+    width: 60%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.testimonials {
+    text-align: center;
+    background-color: #96D9FF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.testimonials img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+
+.testimonials p {
+    width: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 1px;
+}
