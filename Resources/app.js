@@ -33,5 +33,3 @@ document.querySelectorAll(".carousel").forEach(carousel => {
     items[0].classList.add("carousel__item--selected");
     button.classList.add("carousel__button--selected");
 });
-
-//16:15
