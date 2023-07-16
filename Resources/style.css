@@ -206,7 +206,7 @@ footer p {
 
 .carousel__item {
     padding: 1em;
-    height: 400px;
+    height: auto;
     background: grey;
     font-family: "Roboto";
     display: none;
@@ -214,6 +214,10 @@ footer p {
 
 .carousel__item--selected {
     display: block;
+}
+
+.carousel__item img{
+    width: 100%;
 }
 
 .carousel__nav {
@@ -233,6 +237,7 @@ footer p {
     border-radius: 50%;
     margin: 0 5px;
     cursor: pointer;
+    z-index: 1;
 }
 
 .carousel__button--selected {
