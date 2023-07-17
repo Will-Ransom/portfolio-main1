@@ -178,6 +178,10 @@ footer p {
     height: 40vh;
 }
 
+.marketing-graphic-text {
+    text-align: center;
+}
+
 .mg-section {
     background-color:#F4F4F2;
     width: 100%;
@@ -205,9 +209,8 @@ footer p {
 }
 
 .carousel__item {
-    padding: 1em;
     height: auto;
-    background: grey;
+    background: black;
     font-family: "Roboto";
     display: none;
 }
