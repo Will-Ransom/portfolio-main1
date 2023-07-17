@@ -161,14 +161,24 @@ footer p {
 
 /*Contact*/
 .contact-details {
-    list-style-type: none;
-    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
+
 
 .contact-content {
     background-color: #BBBFCA;
     font-size: 35px;
     height: 100vh;
+}
+
+.contact-content p {
+    margin: 20px;
+}
+
+.contact-picture {
+    align-self: center;
 }
 
 /*Marketing Graphics*/
