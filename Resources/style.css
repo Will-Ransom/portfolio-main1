@@ -208,12 +208,13 @@ footer p {
     text-align: center;
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 
 .contact-content {
     background-color: #BBBFCA;
-    font-size: 35px;
-    height: 100vh;
+    font-size: 30px;
+    height: 100%;
 }
 
 .contact-content p {
@@ -222,6 +223,7 @@ footer p {
 
 .contact-picture {
     align-self: center;
+    padding: 50px;
 }
 
 /*Marketing Graphics*/
@@ -360,5 +362,11 @@ footer p {
 
     .hero {
         height: auto;
+    }
+}
+
+@media only screen and (max-width: 1144px){
+    .contact-picture {
+        width: 100%;
     }
 }
