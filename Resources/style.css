@@ -211,6 +211,10 @@ footer p {
     height: 100%;
 }
 
+.contact-details h1{
+ margin-top: 60px;
+}
+
 .contact-content {
     background-color: #BBBFCA;
     font-size: 30px;
@@ -224,6 +228,7 @@ footer p {
 .contact-picture {
     align-self: center;
     padding: 50px;
+    margin-bottom: 100px;
 }
 
 /*Marketing Graphics*/
