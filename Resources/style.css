@@ -361,7 +361,7 @@ footer p {
     }
 
     .hero {
-        height: auto;
+        height: 100%;
     }
 }
 
