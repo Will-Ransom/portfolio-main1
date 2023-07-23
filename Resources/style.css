@@ -210,7 +210,6 @@ footer p {
     flex-direction: column;
 }
 
-
 .contact-content {
     background-color: #BBBFCA;
     font-size: 35px;
@@ -236,6 +235,11 @@ footer p {
     text-align: center;
 }
 
+.marketing-graphic-text p {
+    margin: 0px;
+    padding-bottom: 50px;
+}
+
 .mg-section {
     background-color:#F4F4F2;
     width: 100%;
@@ -255,6 +259,11 @@ footer p {
     width: 100%;
     margin-top: 4rem;
     margin-bottom: 4rem;    
+}
+
+.bottom-space {
+    background-color: #BBBFCA;
+    height: 100px;
 }
 
 /*Marketing graphics image carousel*/
@@ -301,6 +310,11 @@ footer p {
     background: white;    
 }
 
+@media only screen and (max-width: 480px){
+    .marketing-graphic-content {
+       height: fit-content;
+    }
+}
 
 @media only screen and (max-width: 700px){
     .hamburger-menu {
@@ -325,9 +339,6 @@ footer p {
         height: 10px;
     }
 
-    .marketing-graphic-content {
-        height: 50vh;
-    }
 }
 
 @media only screen and (max-width: 960px){
