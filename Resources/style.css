@@ -319,13 +319,6 @@ footer p {
     background: white;    
 }
 
-@media only screen and (max-width: 480px){
-    .marketing-graphic-content {
-       /*height: fit-content;*/
-       /*height: 100%;*/
-    }
-}
-
 @media only screen and (max-width: 700px){
     .hamburger-menu {
         display: flex;
