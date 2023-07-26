@@ -66,8 +66,8 @@ a:active {
 .hero {
     background-color: #BBBFCA;
     font-size: 35px;
-    height: 60vh;
     padding-bottom: 20px;
+    height: 100%;
 }
 
 .navlinks {
@@ -363,10 +363,6 @@ footer p {
         width: auto;
         justify-content: center;
         text-align: center;
-    }
-
-    .hero {
-        height: 100%;
     }
 }
 
