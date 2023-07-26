@@ -67,7 +67,6 @@ a:active {
     background-color: #BBBFCA;
     font-size: 35px;
     padding-bottom: 20px;
-    height: 100%;
 }
 
 .navlinks {
@@ -235,7 +234,6 @@ footer p {
 .marketing-graphic-content {
     background-color: #BBBFCA;
     font-size: 35px;
-    height: 40vh;
 }
 
 .marketing-graphic-text {
@@ -319,7 +317,8 @@ footer p {
 
 @media only screen and (max-width: 480px){
     .marketing-graphic-content {
-       height: fit-content;
+       /*height: fit-content;*/
+       /*height: 100%;*/
     }
 }
 
